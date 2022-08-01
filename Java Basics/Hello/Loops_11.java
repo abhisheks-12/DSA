@@ -34,9 +34,6 @@ public class Loops_11{
             System.out.println(j);
         }
 
-
-
-
         // Break and Continue Statements
         for(int i=0; i<5; i++){
             System.out.println(i);
