@@ -7,7 +7,6 @@ public class Arrays_01{
         randomNumbers[2] = 60;
         System.out.println(randomNumbers[2]);
 
-
         //2.
         int [] marks;
         marks = new int[20];
@@ -66,7 +65,7 @@ public class Arrays_01{
             if(intNumbers[i] == givenNumber){
                 System.out.println("Number is present");
             }
-        }
+        }   
 
 
         //3.Calculate the average marks from an array containing marks of all students in physics using a for-each loop.
@@ -77,6 +76,7 @@ public class Arrays_01{
         }
         System.out.println(totalMarks/marks.length);
 
+        
 
         //4.Create a Java program to add two matrices of size 2x3.
         int [][] matrix1 = {{10,20,30},{40,50,60}};
@@ -123,8 +123,6 @@ public class Arrays_01{
         }
         System.out.println("temproraryNum Num --------- "+temproraryNum);
 
-
-
         // 7.Write a Java program to find whether an array is sorted or not.
         boolean isSorted = true;
         for (int i =0; i<array2.length; i++){
@@ -140,4 +138,5 @@ public class Arrays_01{
         }
 
     }
+}
 }
