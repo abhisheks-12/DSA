@@ -24,7 +24,7 @@ class BeforeNDays{
 
                             5 - Friday
 
-                            6 - Saturday
+                            6 - Saturay
 */
 
     int indexOfDay ;
