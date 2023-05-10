@@ -1,0 +1,71 @@
+Given two integer d and n. Where d is the day, out of 7 days of week, d varies from 0 to 6 as shown below.
+
+0 - Sunday
+
+1 - Monday
+
+2 - Tuesday
+
+3 - Wednesday
+
+4 - Thursday
+
+5 - Friday
+
+6 - Saturday
+
+Complete the function utility() with d and n as parameters. Print index for the day which is n days before the given day d.
+
+ 19 - 7
+
+Example 1:
+
+Input:
+d = 4
+n = 3
+Output:
+1
+Explanation: 3 days before the 4th is 1
+Example 2:
+
+Input:
+d = 2
+n = 19
+Output: 
+4
+Explanation: 19 days before the 2nd is 4
+Your Task: 
+
+Complete the function utility() with d and n as parameters. You have to print the index for the day which is n days before the given day d. Just print the answer after performing suitable operations without the New Line.
+New line will be added by the driver code itself.
+
+
+
+// observation
+
+d can vary from 0 to 6 -  d means days
+n is gap between days
+Print index for the day which is n days before the given day d.
+
+
+d = 4
+n = 3
+
+output ----- 1
+
+
+d - n = 1
+
+n will be days before d
+
+gap =  d - n 
+2 - 19 => 4
+2 - 19 ====== > 4
+
+day and gap identify day
+
+ans will be in between 0 to 6
+
+1 -17 
+
+
