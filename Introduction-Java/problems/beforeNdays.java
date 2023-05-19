@@ -7,7 +7,10 @@ class BeforeNDays{
         int day = 3;
         int gap = 19;
 
-        // output ------> 
+        // output ------>  4
+
+        //  Given two integer d and n. Where d is the day, out of 7 days of week, d varies from 0 to 6 as shown below
+        
 
 
         /*    
@@ -26,12 +29,21 @@ class BeforeNDays{
 
                             6 - Saturay
 */
+                           
+                            int gapBetweenDays  = gap % 7; // this will give us reaming days 
 
-    int indexOfDay ;
 
-    if(indexOfDay.equals(   ))
+
+                            int  actualGap = gapBetweenDays - day;
+
+                            if(actualGap < 0){
+                                return ((actualGap) + 7)
+                            }else{
+                                return actualGap;
+                            }
 
 
 
     }
+   
 }
