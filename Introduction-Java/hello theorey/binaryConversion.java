@@ -25,6 +25,8 @@ class BinaryConversion {
         //    (1 * 2^4 ) + (1 * 2^3 )+ (0 * 2^2 ) + (1 * 2^1) + (1 * 2^0) 
         //     27 - output / decimal
 
+        
+
 
     }
 }

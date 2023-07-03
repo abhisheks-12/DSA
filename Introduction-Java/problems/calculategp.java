@@ -41,7 +41,7 @@ class GP {
         return result;
     }
 
-            +
+
 
 
     static  void parseCCDA(String ccda){

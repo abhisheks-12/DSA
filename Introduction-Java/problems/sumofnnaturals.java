@@ -18,7 +18,8 @@ class SumofNaturals{
 
        System.out.println(total);
 
-
+        System.out.println("hello world");  
+        
 
 
     }
